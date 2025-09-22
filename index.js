@@ -66,8 +66,6 @@ client.on("messageCreate", async (message) => {
     const statusMsg = await message.channel.send(
       "📤 Subiendo replay a TheHax, aguarda un momento…"
     );
-      "📤 Subiendo replay a TheHax, aguarda un momento…"
-    );
 
     // descargar el archivo como buffer
     const downloadResp = await axios.get(hbr2.url, {
